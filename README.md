@@ -39,3 +39,33 @@ No real API keys are included in this repo. Use your own credentials via the Set
 - `linux2.json` (Ed25519)
 
 Both are **placeholders** here. Replace with your own values before building or running.
+
+## OpenRouter (AI Trading)
+
+TradeAI can use OpenRouter for AI trading signals. You’ll need:
+
+- **OpenRouter API key** (starts with `sk-or-...`)
+- **Model ID** (e.g., `openai/gpt-4o-mini`)
+
+### Where to set it
+
+In the app’s **Settings** screen:
+1. Enter your OpenRouter API key.
+2. Enter a model ID.
+3. (Optional) enable auto‑trading and set trade size.
+
+### Choosing a model
+
+OpenRouter model IDs look like:
+
+```
+provider/model-name
+```
+
+Examples:
+
+- `openai/gpt-4o-mini` (fast, low‑cost)
+- `openai/gpt-4o` (higher quality, higher cost)
+- `anthropic/claude-3.5-sonnet` (strong reasoning)
+
+If you’re unsure, start with `openai/gpt-4o-mini` and adjust based on latency/cost needs.

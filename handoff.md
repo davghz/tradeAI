@@ -112,12 +112,12 @@ If TAGlassCardView.mm has issues or isn't linked, crash on first card creation.
 
 ## File Locations
 
-- **Modular (broken)**: `/home/davgz/Documents/Cursor/iOSrun/OrchestratedAppBuild/shared/OrchestratedApp/`
-- **Original (working)**: `/home/davgz/Documents/Cursor/iOSrun/backup/openclawiostweak/OrchestratedApp/`
+- **Modular (broken)**: `<workspace>/OrchestratedAppBuild/shared/OrchestratedApp/`
+- **Original (working)**: `<workspace>/backup/openclawiostweak/OrchestratedApp/`
 
 ## Build Commands
 ```bash
-cd /home/davgz/Documents/Cursor/iOSrun/OrchestratedAppBuild/shared/OrchestratedApp
+cd <workspace>/OrchestratedAppBuild/shared/OrchestratedApp
 make clean && make package install
 ```
 

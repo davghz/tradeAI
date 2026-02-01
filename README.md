@@ -5,13 +5,13 @@ TradeAI is a Theos-based iOS app (targeting iOS 13.2.3) for trading dashboards, 
 ## Build (Theos)
 
 Prereqs:
-- Theos installed (e.g. `/home/davgz/theos`)
+- Theos installed (e.g. `/path/to/theos`)
 - iOS 13.2.3 SDK available at `$THEOS/sdks/iPhoneOS13.2.3.sdk`
 
 From this repo:
 
 ```bash
-export THEOS=/home/davgz/theos
+export THEOS=/path/to/theos
 # Optional: ensure the SDK target is set (already in Makefile)
 # TARGET := iphone:clang:13.2.3:13.2
 
@@ -23,7 +23,7 @@ This produces a `.deb` in `packages/`.
 ### Install on device (SSH)
 
 ```bash
-export THEOS=/home/davgz/theos
+export THEOS=/path/to/theos
 export THEOS_DEVICE_IP=10.0.0.9
 export THEOS_DEVICE_PORT=22
 export THEOS_DEVICE_PASSWORD=alpine

@@ -1,0 +1,4 @@
+{
+   "id": "your-ed25519-key-id",
+   "privateKey": "<BASE64_ED25519_PRIVATE_KEY>"
+}

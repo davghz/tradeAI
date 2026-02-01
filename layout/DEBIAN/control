@@ -1,0 +1,9 @@
+Package: com.tradeai.app
+Name: TradeAI
+Version: 1.0
+Architecture: iphoneos-arm
+Description: AI Trading App built with MultiAgentOrchestrator
+Maintainer: TradeAI
+Author: TradeAI
+Section: Utilities
+Depends: firmware (>= 13.0)
